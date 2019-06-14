@@ -1,21 +1,20 @@
 import React, { Component } from "react";
 import AvengerCard from "./components/AvengerCard";
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
 import avengers from "./characters.json";
+import Navbar from "./components/Navbar";
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
   state = {
     avengers
   };
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
+
   render() {
     return (
       <Wrapper>
-        <Title>Avengers Grid</Title>
-        {this.state.avengers.map(avenger => (
+        <Navbar></Navbar>
+        {this.state.avengers.map(avengers => (
           <AvengerCard
             id={avengers.id}
             key={avengers.id}

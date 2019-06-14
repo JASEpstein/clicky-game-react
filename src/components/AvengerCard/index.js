@@ -1,13 +1,9 @@
 import React from "react";
-import "./style.css"
 
 function AvengerCard(props) {
-    return (
-      <div className="card">
-        <div className="img-container">
-          <img alt={props.name} src={props.image} />
-        </div>
-      </div>
+  return (
+      <img className="img-thumbnail" alt={props.name} src={props.image} />
+
     );
   }
   

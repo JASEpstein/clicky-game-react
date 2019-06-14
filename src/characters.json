@@ -2,31 +2,31 @@
     {
         "id": 1,
         "name": "captain_america",
-        "image": "../public/photos/cap300.jpg"
+        "image": "/images/cap300.jpg"
     },
     {
         "id": 2,
         "name": "black_widow",
-        "image": "../public/photos/blackwidow300.jpg"
+        "image": "/images/blackwidow300.jpg"
     },
     {
         "id": 3,
         "name": "hawkeye",
-        "image": "../public/photos/hawkeye300.jpg"
+        "image": "/images/hawkeye300.jpg"
     },
     {
         "id": 4,
         "name": "hulk",
-        "image": "../public/photos/hulk300.jpg"
+        "image": "/images/hulk300.jpg"
     },
     {
         "id": 5,
         "name": "iron_man",
-        "image": "../public/photos/ironman300.jpg"
+        "image": "/images/ironman300.jpg"
     },
     {
         "id": 6,
         "name": "thor",
-        "image": "../public/photos/thor300.jpg"
+        "image": "/images/thor300.jpg"
     }
 ]
