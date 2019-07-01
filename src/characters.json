@@ -28,5 +28,15 @@
         "id": 6,
         "name": "thor",
         "image": "/images/thor300.jpg"
+    },
+    {
+        "id": 7,
+        "name": "captain_marvel",
+        "image": "/images/captain-marvel300.jpg"
+    },
+    {
+        "id": 8,
+        "name": "doctor_strange",
+        "image": "/images/dr-strange300.jpg"
     }
 ]

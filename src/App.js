@@ -3,6 +3,8 @@ import AvengerCard from "./components/AvengerCard";
 import Wrapper from "./components/Wrapper";
 import avengers from "./characters.json";
 import Navbar from "./components/Navbar";
+import Jumbotron from "./components/Jumbotron"
+import cardContainer from "./components/CardContainer";
 
 class App extends Component {
   state = {
@@ -13,8 +15,10 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Navbar></Navbar>
-        {this.state.avengers.map(avengers => (
+        <Navbar/>
+        <Jumbotron/>
+        <div className="container">
+          {this.state.avengers.map(avengers => (
           <AvengerCard
             id={avengers.id}
             key={avengers.id}
@@ -22,6 +26,9 @@ class App extends Component {
             image={avengers.image}
           />
         ))}
+       </div>
+        
+    
       </Wrapper>
     );
   }

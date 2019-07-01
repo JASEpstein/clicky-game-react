@@ -1,0 +1,9 @@
+.jumbotron {
+    background-image: url(/textures/footer_lodyas.png);
+    background-repeat: repeat;
+}
+
+.container {
+    color: #ffffff;
+    text-align: center;
+}
